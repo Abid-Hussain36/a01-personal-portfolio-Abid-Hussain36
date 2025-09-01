@@ -89,6 +89,16 @@
   font-size: 20px;
 }
 
+.skills {
+  margin: 0;
+  width: 90%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  font-size: 22px;
+  font-family: "Fira Sans Bold", Arial, sans-serif;
+}
+
 .info-item > div:first-of-type > p:first-of-type {
   font-family: "Fira Sans Bold", Arial, sans-serif;
   color: aqua;
