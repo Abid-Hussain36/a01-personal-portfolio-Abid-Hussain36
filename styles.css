@@ -1,0 +1,110 @@
+/*Color Palette: #12110c, blanchedalmond, aqua*/
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("assets/FiraSans-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans Semi Bold";
+  src: url("assets/FiraSans-SemiBold.ttf") format("truetype");
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans Bold";
+  src: url("assets/FiraSans-Bold.ttf") format("truetype");
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Fira Sans", Arial, sans-serif;
+  background-color: #12110c;
+  color: blanchedalmond;
+}
+
+.intro {
+  width: 90%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  margin: 0;
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+}
+
+.name {
+  margin: 0;
+  padding-top: 3%;
+  font-size: 50px;
+  font-family: "Fira Sans Bold", Arial, sans-serif;
+}
+
+.desc {
+  margin: 0;
+  padding-bottom: 1.6%;
+  font-size: 28px;
+  font-family: "Fira Sans Semi Bold", Arial, sans-serif;
+}
+
+.bio {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.section-header {
+  margin: 0;
+  width: 90%;
+  padding-top: 3%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 2.5%;
+  font-size: 28px;
+  font-family: "Fira Sans Bold", Arial, sans-serif;
+}
+
+.info-item {
+  margin: 0;
+  width: 90%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  font-size: 20px;
+}
+
+.info-item > div:first-of-type > p:first-of-type {
+  font-family: "Fira Sans Bold", Arial, sans-serif;
+  color: aqua;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+.item-header > p {
+  margin: 0;
+  padding-bottom: 0.75%;
+}
+
+.action-list {
+  margin: 0;
+}
